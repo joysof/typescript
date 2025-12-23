@@ -19,3 +19,23 @@ user = [101, "sajib"]
 
 user.push(102 , "joy")
 console.log(user)
+
+// enum data type 3 proker dopulacake valu use kora jay na 
+
+// numeric enum 
+
+enum RequestType {
+    readData,
+    saveData,
+    deleteData,
+}
+console.log(RequestType)
+
+// string enum 
+enum RequestType2 {
+    readData = "readData",
+    saveData ="saveData",
+    deleteData ="deleteData"
+}
+console.log(RequestType2.deleteData)
+console.log(RequestType2["saveData"])
